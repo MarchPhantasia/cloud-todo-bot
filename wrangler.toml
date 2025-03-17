@@ -1,0 +1,6 @@
+name = "todobot"
+main = "worker.js"
+compatibility_date = "2024-01-01"
+kv_namespaces = [
+  { binding = "TODO_STORE", id = "YOUR_KV_DATABASE_ID" }
+]
